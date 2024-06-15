@@ -1,4 +1,5 @@
 import { atom } from "jotai";
+import { ICONS } from "@/shared/utils/icons";
 
 export const navItems = [
   {
