@@ -1,8 +1,13 @@
 import { Inter } from "next/font/google";
 import "@/shared/styles/globals.css";
 import Providers from "@/shared/utils/Providers";
+import localFont from "next/font/local";
 
-const inter = Inter({ subsets: ["latin"] });
+const clashDisplay = localFont({
+  src: "../assets/fonts/ClashDisplay-Variable.ttf",
+  variable: "--font-clashDisplay",
+  weight: "700",
+});
 
 export const metadata = {
   title: "Shazum | Email Newsletter",
@@ -12,7 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${clashDisplay.variable}`}>
         <Providers>
           {children}
         </Providers>
