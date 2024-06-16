@@ -1,6 +1,8 @@
 import Header from "@/shared/widgets/header/header";
-import Hero from "./features/hero";
+
+import Benefits from "./features/benefits";
 import Branding from "./features/branding";
+import Hero from "./features/hero";
 
 const Home = () => {
   return (
@@ -8,6 +10,7 @@ const Home = () => {
       <Header />
       <Hero />
       <Branding />
+      <Benefits />
     </>
   );
 };
