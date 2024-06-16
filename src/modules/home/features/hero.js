@@ -22,7 +22,7 @@ const Hero = () => {
               Get Started
             </Button>
           </div>
-          <h4 className="text-center text-lg">start a 30day free trial</h4>
+          <h4 className="text-center text-lg">Kick off with a 30-day free trial!</h4>
         </div>
       </div>
     </div>
