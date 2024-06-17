@@ -1,11 +1,11 @@
 import Header from "@/shared/widgets/header/header";
 
-import Benefits from "./features/benefits";
-import Branding from "./features/branding";
-import Hero from "./features/hero";
-import FeatureHighlight from "./features/feature-highlight";
-import Pricing from "./features/pricing";
-import Footer from "./features/footer";
+import Benefits from "./elements/benefits";
+import Branding from "./elements/branding";
+import Hero from "./elements/hero";
+import FeatureHighlight from "./elements/feature-highlight";
+import Pricing from "./elements/pricing";
+import Footer from "@/shared/widgets/footer/footer";
 
 const Home = () => {
   return (
