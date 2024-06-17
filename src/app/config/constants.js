@@ -51,7 +51,7 @@ export const babyPlan = [
 
 export const KongPlan = [
   {
-    title: "Up to 10,000 subscribers",
+    title: "Up to 15,000 subscribers",
   },
   {
     title: "Custom domains",
@@ -66,7 +66,7 @@ export const KongPlan = [
 
 export const DinoPlan = [
   {
-    title: "Up to 100,000 subscribers",
+    title: "Up to 50,000 subscribers",
   },
   {
     title: "Referal program",
