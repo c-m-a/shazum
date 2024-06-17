@@ -5,6 +5,7 @@ import Branding from "./features/branding";
 import Hero from "./features/hero";
 import FeatureHighlight from "./features/feature-highlight";
 import Pricing from "./features/pricing";
+import Footer from "./features/footer";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Benefits />
       <FeatureHighlight />
       <Pricing />
+      <Footer />
     </>
   );
 };
