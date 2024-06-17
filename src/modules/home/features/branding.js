@@ -18,7 +18,7 @@ const Branding = () => {
           <>
             <Image
               src={i.url}
-              key={i.url}
+              key={idx}
               width={200}
               height={200}
               alt="partner"
